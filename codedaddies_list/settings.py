@@ -25,9 +25,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '2dc8w=jw3b2rvnvxeijn(e+(+jk!$pqz3xnys#&b*l+9==+5t^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['craiglistscraper.up.railway.app']
 
 # Application definition
 
